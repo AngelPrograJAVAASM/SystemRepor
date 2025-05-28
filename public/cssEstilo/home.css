@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b11e1e; /* Gris claro */
+    color: #410000a6; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#sidebar {
+    background-color: #5c0000; /* Verde oscuro */
+    width: 250px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(79, 2, 2, 0.1);
+}
+
+.sidebar-logo {
+    background-color: #c22222; /* Verde más oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-logo a {
+    color: #430000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    color: #fff; /* Blanco para el texto */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.sidebar-link:hover {
+    background-color: #bd2727; /* Verde más oscuro */
+}
+
+.sidebar-dropdown {
+    padding-left: 20px;
+    background-color: #bda5a5; /* Verde muy claro */
+    border-left: 2px solid #2e0000;
+}
+
+.sidebar-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b30e37; /* Verde oscuro */
+}
+
+.sidebar-footer a {
+    color: #fff; /* Blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    flex: 1;
+    background-color: #610000; /* Fondo principal */
+    background-color: #ffffff; /* Fondo principal */
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-image {
+    width: 25vw; /* La imagen ocupará el 50% del ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que sea un bloque */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 3px solid #690000; /* Verde oscuro */
+}
+

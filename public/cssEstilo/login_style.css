@@ -1,0 +1,40 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #1d3770;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #f5c133, #4cdd5f, #7b3bf3, #71b445);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #71e225, #d43dd4, #b325d6, #59f560);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+}
+
+.main {
+    flex: 1;
+    background-color: #ca25b4; /* Fondo de la sección */
+    padding: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #be5eca; /* Fondo general */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

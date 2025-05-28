@@ -1,0 +1,12 @@
+* Usuario = user
+* Almacen = whare
+* Requisiciones = reqs
+* Reportes = rpts
+* Debolver mensaje = ReturnMail
+
+Estrutura de comando para crear una migracion
+
+php artisan make:migration create_"Nombre de migracion"_table
+
+$table->foreign('id_pro')->references('id')->on('productos');
+=Varible forania de la tabla afritiona
